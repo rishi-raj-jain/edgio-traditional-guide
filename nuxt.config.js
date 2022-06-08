@@ -2,7 +2,7 @@ import { withDocus } from '@docus/app'
 
 export default withDocus({
   rootDir: __dirname,
-  buildModules: ['@nuxt/typescript-build', 'vue-plausible', '@docus/twitter', '@docus/github'],
+  buildModules: ['@nuxt/typescript-build', '@docus/twitter', '@docus/github'],
   vite: {
     server: {
       fs: {
@@ -47,9 +47,6 @@ export default withDocus({
         content: 'https://image.nuxtjs.org/social.png',
       },
     ],
-  },
-  plausible: {
-    domain: 'image.nuxtjs.org',
   },
   build: {
     transpile: ['ohmyfetch'],

@@ -21,7 +21,6 @@
     "@layer0/core": "^4.13.13",
     "@layer0/devtools": "^4.13.13",
     "@layer0/prefetch": "^4.13.13",
-    "@nuxt/typescript-build": "^2.1.0",
-    "vue-plausible": "^1.2.1"
+    "@nuxt/typescript-build": "^2.1.0"
   }
 }

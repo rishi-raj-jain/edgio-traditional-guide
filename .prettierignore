@@ -1,3 +1,4 @@
 node_modules/
 .layer0
 dist
+.nuxt
