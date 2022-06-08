@@ -5,6 +5,7 @@
     "build": "nuxt generate",
     "dev": "nuxt dev",
     "start": "nuxt start",
+    "0:deploy": "layer0 deploy",
     "format": "prettier --write '**/*' --ignore-unknown"
   },
   "resolutions": {
