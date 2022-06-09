@@ -16,5 +16,11 @@ module.exports = async function build(options) {
   }
   // Store dist on the S3
   builder.addStaticAsset(join(appDir, 'dist'))
+  command = 'node prerenderPaths.js'
+  try {
+    await builder.exec(command)
+  } catch (e) {
+    throw new FrameworkBuildError('Nuxt.js', command, e)
+  }
   await builder.build()
 }

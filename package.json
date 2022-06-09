@@ -1,10 +1,10 @@
 {
   "name": "layer0-traditional-guide",
   "scripts": {
-    "generate": "nuxt generate",
-    "build": "nuxt generate",
     "dev": "nuxt dev",
     "start": "nuxt start",
+    "build": "nuxt generate",
+    "generate": "nuxt generate",
     "0:deploy": "layer0 deploy",
     "format": "prettier --write '**/*' --ignore-unknown"
   },
@@ -23,5 +23,8 @@
     "@layer0/devtools": "^4.13.13",
     "@layer0/prefetch": "^4.13.13",
     "@nuxt/typescript-build": "^2.1.0"
+  },
+  "dependencies": {
+    "glob": "^8.0.3"
   }
 }
