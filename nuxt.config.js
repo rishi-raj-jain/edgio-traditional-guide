@@ -29,12 +29,12 @@ export default withDocus({
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://image.nuxtjs.org/social.png',
+        content: 'https://rishi-raj-jain-layer0-traditional-guide-default.layer0-limelight.link/social.png',
       },
       {
         hid: 'og:image:secure_url',
         property: 'og:image:secure_url',
-        content: 'https://image.nuxtjs.org/social.png',
+        content: 'https://rishi-raj-jain-layer0-traditional-guide-default.layer0-limelight.link/social.png',
       },
       {
         hid: 'og:image:alt',
@@ -44,7 +44,7 @@ export default withDocus({
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://image.nuxtjs.org/social.png',
+        content: 'https://rishi-raj-jain-layer0-traditional-guide-default.layer0-limelight.link/social.png',
       },
     ],
   },
