@@ -5,7 +5,7 @@ export default {
     aside: true,
     asideClass: '',
   },
-  url: 'https://image.nuxtjs.org',
+  url: 'https://rishi-raj-jain-layer0-traditional-guide-default.layer0-limelight.link',
   theme: {
     colors: {
       primary: '#00BB6F',
