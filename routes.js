@@ -13,10 +13,6 @@ router.match('/directory-structure/', ({ redirect }) => {
   redirect('/directory-structure/layer0')
 })
 
-router.match('/directory-structure/src', ({ redirect }) => {
-  redirect('/directory-structure/src/browser')
-})
-
 router.static('dist', ({ cache }) => {
   cache({
     edge: {
