@@ -1,5 +1,5 @@
 export default {
-  title: 'Nuxt Image',
+  title: 'Layer0 Traditional Template Guide',
   template: 'Docs',
   layout: {
     aside: true,

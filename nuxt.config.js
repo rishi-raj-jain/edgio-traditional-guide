@@ -18,9 +18,9 @@ export default withDocus({
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'og:site_name', property: 'og:site_name', content: 'Nuxt/Image' },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'Layer0 Traditional Template Guide' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
-      { hid: 'twitter:site', name: 'twitter:site', content: '@nuxt_js' },
+      { hid: 'twitter:site', name: 'twitter:site', content: '@rishi_raj_jain_' },
       {
         hid: 'twitter:card',
         name: 'twitter:card',
