@@ -39,7 +39,7 @@ export default withDocus({
       {
         hid: 'og:image:alt',
         property: 'og:image:alt',
-        content: 'Nuxt/Image',
+        content: 'Layer0 Traditional Template Guide',
       },
       {
         hid: 'twitter:image',
