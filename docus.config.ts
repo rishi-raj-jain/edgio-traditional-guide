@@ -18,10 +18,9 @@ export default {
       },
     },
   },
-  twitter: 'nuxt_js',
+  twitter: 'rishi_raj_jain_',
   github: {
-    repo: 'nuxt/image',
-    dir: 'docs',
-    branch: 'main',
+    repo: 'rishi-raj-jain/layer0-traditional-guide',
+    branch: 'master',
   },
 }

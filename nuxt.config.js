@@ -54,7 +54,4 @@ export default withDocus({
       imgUrl: { limit: 0 },
     },
   },
-  github: {
-     repo: 'rishi-raj-jain/layer0-traditional-guide'
-  }
 })
